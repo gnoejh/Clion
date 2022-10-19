@@ -160,6 +160,7 @@
 //    exit(0);
 //}
 
+
 //실습문제 7
 #include <stdio.h>
 #include <stdlib.h>

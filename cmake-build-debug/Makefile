@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /mnt/w/정시윤/Clion
+CMAKE_SOURCE_DIR = /home/hjeong/Clion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /mnt/w/정시윤/Clion/cmake-build-debug
+CMAKE_BINARY_DIR = /home/hjeong/Clion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/w/정시윤/Clion/cmake-build-debug/CMakeFiles /mnt/w/정시윤/Clion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjeong/Clion/cmake-build-debug/CMakeFiles /home/hjeong/Clion/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/w/정시윤/Clion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/hjeong/Clion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-main.o: main.c.o
+bookquery.o: bookquery.c.o
 
-.PHONY : main.o
+.PHONY : bookquery.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.o
-.PHONY : main.c.o
+bookquery.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookquery.c.o
+.PHONY : bookquery.c.o
 
-main.i: main.c.i
+bookquery.i: bookquery.c.i
 
-.PHONY : main.i
+.PHONY : bookquery.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.i
-.PHONY : main.c.i
+bookquery.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookquery.c.i
+.PHONY : bookquery.c.i
 
-main.s: main.c.s
+bookquery.s: bookquery.c.s
 
-.PHONY : main.s
+.PHONY : bookquery.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/main.c.s
-.PHONY : main.c.s
+bookquery.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookquery.c.s
+.PHONY : bookquery.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... bookquery.o"
+	@echo "... bookquery.i"
+	@echo "... bookquery.s"
 .PHONY : help
 
 

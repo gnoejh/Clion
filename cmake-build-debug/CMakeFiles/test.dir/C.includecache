@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/mnt/w/정시윤/Clion/main.c
+/home/hjeong/Clion/bookcreate.c
 stdio.h
 -
-stdlib.h
--
-unistd.h
--
-fcntl.h
--
-student.h
-/mnt/w/정시윤/Clion/student.h
+library.h
+/home/hjeong/Clion/library.h
 
-/mnt/w/정시윤/Clion/student.h
+/home/hjeong/Clion/library.h
 

@@ -1,11 +1,4 @@
-C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/w/정시윤/Clion/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/w/정시윤/Clion -B /mnt/w/정시윤/Clion/cmake-build-debug"
--- The C compiler identification is GNU 9.4.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+C:\WINDOWS\system32\wsl.exe --distribution Ubuntu-20.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /home/hjeong/Clion/cmake-build-debug && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /home/hjeong/Clion -B /home/hjeong/Clion/cmake-build-debug"
 -- Configuring done
 -- Generating done
--- Build files have been written to: /mnt/w/정시윤/Clion/cmake-build-debug
+-- Build files have been written to: /home/hjeong/Clion/cmake-build-debug

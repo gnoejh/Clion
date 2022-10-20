@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/test.dir/bookquery.c.o"
+  "CMakeFiles/test.dir/bookcreate.c.o"
   "test"
   "test.pdb"
 )

@@ -57,27 +57,27 @@ include CMakeFiles/test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/test.dir/flags.make
 
-CMakeFiles/test.dir/bookquery.c.o: CMakeFiles/test.dir/flags.make
-CMakeFiles/test.dir/bookquery.c.o: ../bookquery.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hjeong/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/bookquery.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/bookquery.c.o   -c /home/hjeong/Clion/bookquery.c
+CMakeFiles/test.dir/bookcreate.c.o: CMakeFiles/test.dir/flags.make
+CMakeFiles/test.dir/bookcreate.c.o: ../bookcreate.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hjeong/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/test.dir/bookcreate.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/test.dir/bookcreate.c.o   -c /home/hjeong/Clion/bookcreate.c
 
-CMakeFiles/test.dir/bookquery.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/bookquery.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hjeong/Clion/bookquery.c > CMakeFiles/test.dir/bookquery.c.i
+CMakeFiles/test.dir/bookcreate.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test.dir/bookcreate.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hjeong/Clion/bookcreate.c > CMakeFiles/test.dir/bookcreate.c.i
 
-CMakeFiles/test.dir/bookquery.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/bookquery.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hjeong/Clion/bookquery.c -o CMakeFiles/test.dir/bookquery.c.s
+CMakeFiles/test.dir/bookcreate.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test.dir/bookcreate.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hjeong/Clion/bookcreate.c -o CMakeFiles/test.dir/bookcreate.c.s
 
 # Object files for target test
 test_OBJECTS = \
-"CMakeFiles/test.dir/bookquery.c.o"
+"CMakeFiles/test.dir/bookcreate.c.o"
 
 # External object files for target test
 test_EXTERNAL_OBJECTS =
 
-test: CMakeFiles/test.dir/bookquery.c.o
+test: CMakeFiles/test.dir/bookcreate.c.o
 test: CMakeFiles/test.dir/build.make
 test: CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hjeong/Clion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable test"

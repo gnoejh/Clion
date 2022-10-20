@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/hjeong/Clion/bookquery.c" "/home/hjeong/Clion/cmake-build-debug/CMakeFiles/test.dir/bookquery.c.o"
+  "/home/hjeong/Clion/bookcreate.c" "/home/hjeong/Clion/cmake-build-debug/CMakeFiles/test.dir/bookcreate.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

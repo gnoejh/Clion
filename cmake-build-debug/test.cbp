@@ -76,7 +76,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hjeong/Clion/bookquery.c">
+		<Unit filename="/home/hjeong/Clion/bookcreate.c">
 			<Option target="test"/>
 		</Unit>
 		<Unit filename="/home/hjeong/Clion/CMakeLists.txt">

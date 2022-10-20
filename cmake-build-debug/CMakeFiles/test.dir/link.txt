@@ -1,1 +1,1 @@
-/usr/bin/cc -g   CMakeFiles/test.dir/bookquery.c.o  -o test 
+/usr/bin/cc -g   CMakeFiles/test.dir/bookcreate.c.o  -o test 

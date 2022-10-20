@@ -123,32 +123,32 @@ test/fast:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-bookquery.o: bookquery.c.o
+bookcreate.o: bookcreate.c.o
 
-.PHONY : bookquery.o
+.PHONY : bookcreate.o
 
 # target to build an object file
-bookquery.c.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookquery.c.o
-.PHONY : bookquery.c.o
+bookcreate.c.o:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookcreate.c.o
+.PHONY : bookcreate.c.o
 
-bookquery.i: bookquery.c.i
+bookcreate.i: bookcreate.c.i
 
-.PHONY : bookquery.i
+.PHONY : bookcreate.i
 
 # target to preprocess a source file
-bookquery.c.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookquery.c.i
-.PHONY : bookquery.c.i
+bookcreate.c.i:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookcreate.c.i
+.PHONY : bookcreate.c.i
 
-bookquery.s: bookquery.c.s
+bookcreate.s: bookcreate.c.s
 
-.PHONY : bookquery.s
+.PHONY : bookcreate.s
 
 # target to generate assembly for a file
-bookquery.c.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookquery.c.s
-.PHONY : bookquery.c.s
+bookcreate.c.s:
+	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/bookcreate.c.s
+.PHONY : bookcreate.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
-	@echo "... bookquery.o"
-	@echo "... bookquery.i"
-	@echo "... bookquery.s"
+	@echo "... bookcreate.o"
+	@echo "... bookcreate.i"
+	@echo "... bookcreate.s"
 .PHONY : help
 
 

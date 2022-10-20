@@ -205,44 +205,44 @@
 
 
 //연습문제 1
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <unistd.h>
-//#include <fcntl.h>
-//#define BUFSIZE 1024
-//
-///* 파일 크기를 계산 한다 */
-//int main(int argc, char *argv[])
-//{
-//    int linenumber;
-//    char line[256];
-//    int count = 1;
-//    FILE *fd;
-//
-//    fd = fopen(argv[1], "r");
-//    while (fgets(line, sizeof line, fd)){
-//         count++;
-//    }
-//    printf("File read success\n");
-//    printf("Total line : %d\n", count);
-//
-//    printf("Please enter the line to select ");
-//    scanf("%d", &linenumber);
-//    fclose(fd);
-//    count = 0;
-//    fd = fopen(argv[1], "r");
-//    while (fgets(line, sizeof line, fd)){
-//        if (count == linenumber) {
-//            printf("%s", line);
-//            count++;
-//        }
-//        else count++;
-//    }
-//    fclose(fd);
-//
-////    printf ("%s 파일 크기 : %ld 바이트 \n", argv[1], total);
-//    exit(0);
-//}
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <fcntl.h>
+#define BUFSIZE 1024
+
+/* 파일 크기를 계산 한다 */
+int main(int argc, char *argv[])
+{
+    int linenumber;
+    char line[256];
+    int count = 1;
+    FILE *fd;
+
+    fd = fopen(argv[1], "r");
+    while (fgets(line, sizeof line, fd)){
+         count++;
+    }
+    printf("File read success\n");
+    printf("Total line : %d\n", count);
+
+    printf("Please enter the line to select ");
+    scanf("%d", &linenumber);
+    fclose(fd);
+    count = 0;
+    fd = fopen(argv[1], "r");
+    while (fgets(line, sizeof line, fd)){
+        if (count == linenumber) {
+            printf("%s", line);
+            count++;
+        }
+        else count++;
+    }
+    fclose(fd);
+
+//    printf ("%s 파일 크기 : %ld 바이트 \n", argv[1], total);
+    exit(0);
+}
 
 
 
